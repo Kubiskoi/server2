@@ -26,5 +26,5 @@ app.get('/api', (req, res) => {
 })
 
 app.listen(server_port, function () {
-  console.log( "Listening on " + server_ip_address + ", port " + server_port )
+  console.log( "Listening on port " + server_port )
 });
